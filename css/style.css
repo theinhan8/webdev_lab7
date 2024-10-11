@@ -1,7 +1,50 @@
 td, th {
 	border: 1px solid;
-  }
+}
 
 table {
   width: 100%;
+}
+
+h1, h3, td, th {
+  font-family: monospace, serif;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.8em;
+}
+
+h3 {
+  margin: 0 auto;
+}
+
+td {
+  padding-left: .5em;
+} 
+ 
+em.italic {
+  font-style: italic;
+}
+
+.sup {
+  position: relative;
+  font-size: 80%;
+}
+
+strong {
+  font-weight: 700;
+  font-size: 1em;
+}
+
+#page-wrapper {
+  background-image: url("../images/galaxy.jpg");
+  background-size: 100%;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 3em;
 }
