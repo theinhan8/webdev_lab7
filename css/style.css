@@ -1,9 +1,11 @@
 td, th {
-	border: 1px solid;
+	border: 0px;
+  padding: .4em .5em;
 }
 
 table {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 h1, h3, td, th {
@@ -15,6 +17,11 @@ h1 {
   text-align: center;
   font-size: 2.8em;
 }
+
+td.left-align, th.left-align {
+  text-align: left; /* Left-align specific rows or columns */
+}
+
 
 h3 {
   margin: 0 auto;
@@ -46,5 +53,18 @@ strong {
 img {
   display: block;
   margin: 0 auto;
-  padding: 3em;
+  padding: 1em;
+}
+
+tr.main:hover {
+  background-color: blue;
+}
+
+div#center {
+  text-align: center;
+}
+
+tr#main {
+  display: inline-block;
+  text-align: left;
 }
