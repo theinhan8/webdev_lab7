@@ -4,7 +4,7 @@ td, th {
 }
 
 table {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -43,6 +43,11 @@ em.italic {
 strong {
   font-weight: 700;
   font-size: 1em;
+}
+
+strong.title {
+  font-weight: 700;
+  font-size: 1.5em;
 }
 
 #page-wrapper {
